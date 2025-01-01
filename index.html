@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Jersey+10:400");
+      * {
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0px;
+        height: 100%;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .centre-section {
+        width: 614px;
+        height: 934px;
+        position: relative;
+      }
+      .centre-section .overlap-group {
+        position: relative;
+        height: 100%;
+        width: 100%;
+      }
+      .centre-section .text-wrapper {
+        position: absolute;
+        width: 614px;
+        top: 105px;
+        left: 0;
+        font-family: "Jersey 10", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 180px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+        z-index: 1;
+      }
+      .centre-section .zoro {
+        position: absolute;
+        width: 486px;
+        height: 934px;
+        top: 0;
+        left: 62px;
+        object-fit: cover;
+        z-index: 2;
+      }
+      .centre-section .div {
+        position: absolute;
+        width: 346px;
+        top: 344px;
+        left: 132px;
+        font-family: "Jersey 10", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 180px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+        z-index: 3;
+      }
+
+      /* Media Queries */
+      @media screen and (max-width: 768px) {
+        .centre-section {
+          width: 100%;
+          height: 100vh;
+          max-width: 614px;
+          max-height: 934px;
+        }
+        .centre-section .text-wrapper {
+          width: 100%;
+          font-size: 120px;
+          top: 15%;
+        }
+        .centre-section .zoro {
+          width: 80%;
+          height: 80%;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        .centre-section .div {
+          width: 100%;
+          font-size: 120px;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 40%;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .centre-section .text-wrapper {
+          font-size: 80px;
+        }
+        .centre-section .div {
+          font-size: 80px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="centre-section">
+      <div class="overlap-group">
+        <div class="text-wrapper">Roronoa</div>
+        <img class="zoro" src="zoro1.gif" alt="Zoro" />
+        <div class="div">ZORO</div>
+      </div>
+    </div>
+  </body>
+</html>
