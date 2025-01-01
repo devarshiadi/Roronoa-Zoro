@@ -1,40 +1,15 @@
- ██████╗ ██╗      ██████╗ ██╗███████╗██╗  ██╗
-██╔═══██╗██║     ██╔═══██╗██║██╔════╝╚██╗██╔╝
-██║   ██║██║     ██║   ██║██║█████╗   ╚███╔╝ 
-██║▄▄ ██║██║     ██║▄▄ ██║██║██╔══╝   ██╔██╗ 
-╚██████╔╝███████╗╚██████╔╝██║███████╗██╔╝ ██╗
- ╚══▀▀═╝ ╚══════╝ ╚══▀▀═╝ ╚═╝╚══════╝╚═╝  ╚═╝
-```
+# Project Showcase
 
-> **Project Name:** Glitch-Effect Web Design  
-> **Description:** A small-scale web design project featuring a glitch-inspired aesthetic.  
-> **Output Preview:**  
-> ![indexoutput.gif](indexoutput.gif)  
+Welcome to the project repository! This is a simple showcase of designs with more updates coming soon. Stay tuned for additional features and designs.
 
----
+## Current Features
+- **Designs**: A collection of designs (updating soon).
+- **Output Demo**: Check out the output in GIF format: ![Output GIF](./indexoutput.gif)
 
-## 📂 Project Files  
+## How to View
+- Refer to [index.html](./index.html) to explore the main content.
 
-| File Name       | Description                              |
-|------------------|------------------------------------------|
-| `index.html`    | Main HTML file for the webpage.          |
-| `indexoutput.gif` | Animated preview of the webpage output. |
+## Showcase
+![Output Preview](./indexoutput.gif)
 
----
-
-## 💻 How to Use  
-
-1. Clone the repository or download the files.  
-2. Open `index.html` in your preferred web browser to view the design.  
-3. Refer to `indexoutput.gif` to preview the intended output.  
-
----
-
-## ✨ Glitch Effect Inspiration  
-
-This project was inspired by glitch aesthetics and monochrome simplicity.  
-Feel free to customize or expand upon the design!  
-
---- 
-
-Would you like me to generate an updated or visually styled version for a specific platform, like GitHub or a personal portfolio? 
+Stay tuned for more updates and designs!
